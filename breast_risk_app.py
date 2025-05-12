@@ -20,7 +20,11 @@ if not firebase_admin._apps:
 db = firestore.client()
 
 st.set_page_config(page_title="Advanced Breast Cancer Risk Screener", layout="centered")
-st.title("Advanced Breast Cancer Risk Assessment")
+
+st.markdown("<h1 style='text-align: center;'>🩺 Breast Cancer Risk Screener</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 18px;'>This friendly, private tool helps you understand your personal breast cancer risk and connect with local care options.</p>", unsafe_allow_html=True)
+st.markdown("---")
+
 
 score = 0
 
