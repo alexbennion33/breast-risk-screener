@@ -10,7 +10,7 @@ import os
 import json
 
 # Load secrets
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = "AIzaSyDxg8ZFcTcEn5czpUyow5o_pUChz_u4e7w"
 firebase_key_dict = json.loads(os.getenv("FIREBASE_KEY_JSON"))
 
 # Firebase setup
